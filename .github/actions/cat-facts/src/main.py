@@ -17,9 +17,7 @@ fact_list = []
 print("###### FACT List ######## >>")
 for fact in r_obj_list:
     print(fact)
-    print(fact[1])
-    print(fact.text)
-    fact_list.append(fact[1])
+    fact_list.append(fact)
     #fact_list.append(fact["text"])
     
 print("<< ###### FACT List ########")
