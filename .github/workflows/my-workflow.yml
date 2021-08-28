@@ -1,0 +1,12 @@
+name: Docker Actions
+
+on: [push]
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+#Dummy line for new commit
