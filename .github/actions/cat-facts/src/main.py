@@ -16,10 +16,11 @@ fact_list = []
 # Add the "text" of every object into the fact_list list
 print("###### FACT List ######## >>")
 for fact in r_obj_list:
-    print(fact[1])
+    print(fact)
     fact_list.append(fact[1])
     #fact_list.append(fact["text"])
-
+    
+print("<< ###### FACT List ########")
 # Select a random fact from the fact_list and return it
 # into a variable named random_fact so we can use it
 def select_random_fact(fact_arr):
