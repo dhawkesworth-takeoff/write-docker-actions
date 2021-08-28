@@ -17,8 +17,8 @@ fact_list = []
 print("###### FACT List ######## >>")
 for fact in r_obj_list:
     print(fact)
-    fact_list.append(fact[1])
-    #fact_list.append(fact["text"])
+    #fact_list.append(fact[1])
+    fact_list.append(fact["text"])
     
 print("<< ###### FACT List ########")
 # Select a random fact from the fact_list and return it
