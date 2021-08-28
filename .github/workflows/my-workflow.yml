@@ -9,4 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-#Dummy line for new commit
+      - name: hello-action
+        uses: ./.github/actions/hello-world
